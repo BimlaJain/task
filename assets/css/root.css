@@ -1,0 +1,99 @@
+:root {
+    /* -------------------------font-size------------------------- */
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-mmd: 20px;
+    --fs-lg: 22px;
+    --fs-2lg: 24px;
+    --fs-xl: 26px;
+    --fs-xxl: 30px;
+    --fs-2xl: 32px;
+    --fs-xsm: 16px;
+       
+
+
+/* ==================color=============== */
+--dark: #000;
+--light: #fff;
+--primary: #1BABFE;
+--secondary: #C7DADB;
+--gray: #C4C4C4;
+--null: #4E828B;
+--light-gray: #8C8C8C;
+}
+
+.nav-link {
+    font-size: var(--fs-lg);
+}
+
+.heading {
+    font-size: var(--fs-2xl);
+}
+
+.btn-name {
+    font-size: var(--fs-2lg);
+}
+
+.token {
+    font-size: var(--fs-sm);
+}
+
+.rating {
+    font-size: var(--fs-mmd);
+}
+
+.table-heading {
+    font-size: var(--fs-xxl);
+}
+
+.timimg {
+    font-size: var(--fs-xxl);
+}
+
+.table-line {
+    font-size: var(--fs-md);
+}
+
+.col-line {
+    font-size: var(--fs-md);
+}
+
+.number {
+    font-size: var(--fs-2lg);
+}
+.blur-box-name{
+    font-size: var(--fs-xxl);
+}
+.blur-box-head-number{
+    font-size: var(--fs-mmd);
+}
+.blur-box-sub-heading{
+    font-size: var(--fs-sm);
+}
+.blur-box-time{
+    font-size: var(--fs-xl);
+}
+.blur-box-text{
+    font-size: var(--fs-md);
+}
+.cap-text{
+    font-size: var(--fs-md);
+}
+.cap-number {
+    font-size: var(--fs-2lg);
+}
+.buy-tokens-btn{
+    font-size: var(--fs-2lg);
+}
+@media(min-width:576px) {
+    :root {
+        --fs-2xl: 72px;
+    }
+       
+}
+@media (max-width:576px) {
+    .blur-box-time {
+            font-size: var(--fs-mmd);
+        }
+    
+}
